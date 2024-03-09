@@ -1,0 +1,39 @@
+/* Projects.css */
+
+.projects-section {
+    text-align: center;
+    padding: 40px;
+    padding-right: 15px;
+    background:transparent;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .section-title h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding-right: 60px;
+    color: #1eede6;
+    text-align: right; 
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    color: aquamarine;
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+
+    
+  
+    .section-title h1 {
+      font-size: 5rem; 
+    }
+  
+    .projects-grid {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  

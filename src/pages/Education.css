@@ -1,0 +1,61 @@
+
+
+
+.education {
+    opacity: 0;
+    transform: translateY(20px);
+    background-color: #162427;
+    padding: 40px;
+    margin: 5px;
+  }
+  
+  .Education.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.8s, transform 0.8s;
+  }
+  
+  .Education h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    color: #1eede6;
+    text-align: right; 
+  }
+
+ 
+
+  .logo_ed{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .Education-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #1eede6;
+    border-radius: 8px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .Education-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  @media (max-width: 768px) {
+    .Education h2 {
+        font-size: 5rem;
+    }
+    h2{
+      font-size: 1.5em;
+    }
+
+    
+  }
+  
